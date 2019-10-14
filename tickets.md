@@ -3,12 +3,32 @@
 - [x] Create a react typescript app
 
 #### Set up routing (ticket)
-- [x] login
-- [x] view release messages
-> Split view that lets you view details of 1 release at a time
-- [x] create release messages
 
->> In this ticket you should establish routing between these views. The routing should use URL params so that if a given page is refreshed, the user will stay on that page.
+- [] login
+- [] Home dashboard
+- [] calendar
+- [] contacts and study groups chat room/data share
+- [] grade and hw progress tracker
+
+#### Log in (ticket)
+
+- [] build login page
+
+#### Dashboard (ticket)
+
+- [] build dashboard page
+
+#### Calendar (ticket)
+
+- [] build calendar page
+
+#### Contacts/Groups (ticket)
+
+- [] build contacts/groups page
+
+#### grade and hw progress tracker page (ticket)
+
+- [] build this page too
 
 ###### notes
 
@@ -18,7 +38,3 @@ Libraries used:
 - material-ui
 - material-ui/icons
 - material table
-
-#### Log in (ticket)
-
-- [] build login page

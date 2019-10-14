@@ -1,8 +1,8 @@
-# Messages Front End
+# Education Helper Application
 
-This portal handles release notes. It allows creating, modifying, and viewing of new release notes so that customers are aware of features that we have implemented in our latest releases.
+The EHA was built to help curb the stress of managing calendars, due dates, contacts, and personal progress tracking that gets confused with many different platforms, software, or whatever it is that everyone chooses to use. The benefit of using this software is the centralization of your life that it offers.
 
-## Current snapshot
+## Current view snapshots
 
 ![Home View](Snapshots/home.png)
 
