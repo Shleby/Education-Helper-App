@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import HomeIcon from '@material-ui/icons/Home';
 import NoteAddIcon from '@material-ui/icons/NoteAdd';
 import MeetingRoomIcon from '@material-ui/icons/MeetingRoom';
-import logo from './Icons/messaging-portal-logo.png'
+import logo from './Icons/EHA-portal-logo.png'
 
 import DrawerToggleButton from '../Components/SideDrawer/DrawerToggleButton';
 import { Paper, IconButton, InputBase, Divider } from '@material-ui/core';

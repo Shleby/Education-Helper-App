@@ -26,7 +26,7 @@ class Footer extends React.Component<any, any> {
               </a>
               |
                 &copy; {new Date().getFullYear()}{" "}
-                Oseberg
+                Shelby Huffman
             </ul>
           </nav>
         </div>
