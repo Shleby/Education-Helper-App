@@ -10,7 +10,7 @@ import Home from '../Home/Home';
 import Login from '../Login/Login';
 import SideDrawer from '../../Components/SideDrawer/SideDrawer';
 import Backdrop from '../../Components/Backdrop/Backdrop';
-
+import VerticalNavBar from '../../Components/VerticalNavBar/VertNavBar';
 class MainApp extends React.Component<any, any> {
     state = {
         sideDrawerOpen: false,
@@ -36,7 +36,8 @@ class MainApp extends React.Component<any, any> {
         return (
             <Router>
                 <div className="main">
-                    <MainNav drawerClickHandler={this.drawerToggleClickHandler} />
+                    <VerticalNavBar />
+                    {/* <MainNav drawerClickHandler={this.drawerToggleClickHandler} />
                     <SideDrawer show={this.state.sideDrawerOpen} />
                     {backdrop}
                     <Switch>
@@ -45,7 +46,7 @@ class MainApp extends React.Component<any, any> {
                     </Switch>
                 </div>
                 <div className="footer-main">
-                    <Footer />
+                    <Footer /> */}
                 </div>
             </Router>
         );

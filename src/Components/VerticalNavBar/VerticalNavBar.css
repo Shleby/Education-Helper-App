@@ -1,0 +1,115 @@
+.vertical-nav {
+    min-width: 6rem;
+    width: 6rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    background-color: rgb(216, 215, 215);
+  }
+  
+  .logo {
+    height: 70px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  /*dashboard logo*/
+  .db-logo {
+      height: 60px;
+      margin-left: -0.5rem;
+      padding-bottom: 20px;
+  }
+  
+  .st-logo {
+    height: 60px;
+    margin-left: -0.5rem;
+    padding-bottom: 20px;
+  }
+  /* calendar logo*/
+  .cd-logo {
+    height: 60px;
+    margin-left: -0.5rem;
+    padding-bottom: 20px;
+  }
+
+  /* contacts logo*/
+  .cc-logo {
+    height: 60px;
+    margin-left: -0.5rem;
+    padding-bottom: 20px;
+  }
+
+  /* tasks logo */
+  .tk-logo {
+    height: 60px;
+    margin-left: -0.5rem;
+    padding-bottom: 20px;
+  }
+
+  .overlay {
+    position: relative;
+  }
+  
+  .overlay:after {
+    position: absolute;
+    content:"";
+    top:0;
+    left:0;
+    width:85px;
+    height:100%;
+    opacity:0;
+  }
+
+  .box {
+    left: -30px;
+    width:85px;
+    height:60px;
+    border:1px solid rgb(216, 215, 215);
+    display: inline-block;
+  }
+
+  .overlay:hover:after  {
+    opacity: .5;
+  }
+
+  .gold:after {
+    background-color: rgb(110, 36, 6);
+  }
+
+  .page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+  }
+  
+  /* for toggle behavior */
+  
+  #sidebar.active {
+    margin-left: -17rem;
+  }
+  
+  #content.active {
+    width: 100%;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    #sidebar {
+      margin-left: -17rem;
+    }
+    #sidebar.active {
+      margin-left: 0;
+    }
+    #content {
+      width: 100%;
+      margin: 0;
+    }
+    #content.active {
+      margin-left: 17rem;
+      width: calc(100% - 17rem);
+    }
+  }
