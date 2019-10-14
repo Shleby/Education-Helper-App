@@ -1,0 +1,12 @@
+.main{
+    height: 90px;
+    text-align: center;
+    padding-bottom: 34.8rem;    /* Footer height */
+    position: relative;;
+}
+.footer-main {
+    background-color: rgb(235, 232, 232);
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+}

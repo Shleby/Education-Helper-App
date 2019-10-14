@@ -1,0 +1,15 @@
+.split-right {
+    height: 567px;
+    width: 65%;
+    float: right;
+    justify-content: center;
+    background-color: rgb(100, 96, 96);
+}
+
+.split-left {
+    height: 567px;
+    width: 35%;
+    float: left;
+    justify-content: center;
+    background-color: rgb(194, 194, 194);
+}

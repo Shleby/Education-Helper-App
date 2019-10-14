@@ -1,0 +1,56 @@
+.nav {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background: darkslategrey;
+    color: white;
+    padding: 0 1rem;
+}
+
+.nav-logo a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.nav-links-div {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-links-div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.link-style {
+    padding: 0 0.5rem;
+    text-decoration: none;
+
+}
+
+.spacer {
+    flex: 1;
+}
+
+.logo {
+    height: 70px;
+    min-width: 18
+    0px;
+}
+
+.nav-links-div button:hover,
+.nav-links-div button:active {
+    color: darkslategray;
+}
+
+.search-bar {
+    margin-right: 215px;
+    margin-left: 30px;
+    min-width: 0px;
+    height: auto;
+}
