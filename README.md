@@ -4,11 +4,15 @@ The EHA was built to help curb the stress of managing calendars, due dates, cont
 
 ## Current view snapshots
 
-![Home View](Snapshots/home.png)
+![HomeView](Snapshots/eha-home.png)
 
-![CreateView](Snapshots/CreateView.png)
+![CalendarView](Snapshots/CreateView.png)
 
-![Side Drawer](Snapshots/Side-Drawer.png)
+![ContactsView](Snapshots/Side-Drawer.png)
+
+![TasksView]()
+
+![SettingsView]()
 
 ## Available Scripts
 
