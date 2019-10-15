@@ -19,31 +19,31 @@ class VerticalNavBar extends React.Component<any, any> {
                 <div className="py-4 px-3 mb-4 bg-light">
                     <div className="media d-flex align-items-center">
                         <div className="media-body">
-                            <Link to='/'>
+                            <Link to='/dashboard'>
                                 <img className="logo" src={logo} alt="logo" />
                             </Link>
                             <ul className="nav flex-column bg-white mb-0">
-                                <div className="box overlay gold">
+                                <div >
                                     <Link to='/dashboard'>
                                         <img className="db-logo" src={dbLogo} alt="logo" />
                                     </Link>
                                 </div>
-                                <div className="box overlay gold">
+                                <div>
                                     <Link to='/calendar'>
                                         <img className="cd-logo" src={cdLogo} alt="logo" />
                                     </Link>
                                 </div>
-                                <div className="box overlay gold">
+                                <div>
                                     <Link to='/contacts'>
                                         <img className="cc-logo" src={ccLogo} alt="logo" />
                                     </Link>
                                 </div>
-                                <div className="box overlay gold">
+                                <div>
                                     <Link to='/tasks'>
                                         <img className="tk-logo" src={tkLogo} alt="logo" />
                                     </Link>
                                 </div>
-                                <div className="box overlay gold">
+                                <div>
                                     <Link to='/settings'>
                                         <img className="st-logo" src={stLogo} alt="logo" />
                                     </Link>

@@ -1,6 +1,7 @@
 import React from 'react';
+import './calendar.css';
 
-class CreateRelease extends React.Component {
+class Calendar extends React.Component {
     render() {
         return (
             <div>
@@ -10,4 +11,4 @@ class CreateRelease extends React.Component {
     }
 }
 
-export default CreateRelease;
+export default Calendar;
